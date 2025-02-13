@@ -1,0 +1,26 @@
+using System;
+
+class Program
+{
+    // Function to calculate the area of a rectangle
+    static double CalculateRectangleArea(double length, double width)
+    {
+        return length * width;
+    }
+
+    static void Main(string[] args)
+    {
+        // Prompt the user to input the length and width
+        Console.WriteLine("Enter the length of the rectangle:");
+        double length = Convert.ToDouble(Console.ReadLine());
+
+        Console.WriteLine("Enter the width of the rectangle:");
+        double width = Convert.ToDouble(Console.ReadLine());
+
+        // Call the function to calculate the area
+        double area = CalculateRectangleArea(length, width);
+
+        // Output the result
+        Console.WriteLine("The area of the rectangle is: " + area);
+    }
+}

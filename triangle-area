@@ -1,0 +1,17 @@
+using System;
+public class program
+{
+    static double calar(double basel, double height){
+        return 0.5*basel*height;
+    }
+    public static void Main(){
+        Console.WriteLine("enter the baselength");
+        double basel=Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("enter the height");
+        double height = Convert.ToDouble(Console.ReadLine());
+        
+        double area = calar(basel, height);
+        
+        Console.WriteLine("The area of the triangle is: " + area);
+    }
+}

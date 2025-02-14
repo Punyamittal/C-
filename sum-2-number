@@ -1,0 +1,10 @@
+using System;
+public class heel{
+    static public void Main(string[] args)
+    {
+        int x=5;
+        int y=9;
+        int z=x+y;
+        Console.WriteLine("the sum of 2 numbers is:{0}",z);
+    }
+}
